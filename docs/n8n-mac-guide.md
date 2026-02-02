@@ -3,6 +3,8 @@
 > **Status**: ✅ Production Ready | **Platform**: Docker Desktop for Mac | **Author**: 狮子玄
 
 在使用 Mac 部署 n8n 分布式 Runner 时，最头疼的就是文件读写权限报错。本文总结了从权限、路径到代理的完整避坑方案。
+![85c71e05623089ce9457b17416d72fbf](https://github.com/user-attachments/assets/dfedfa2d-59d8-48cd-8a14-1d0fb52d8e0f)
+
 
 ---
 
@@ -16,7 +18,6 @@
 - [7. 总结与 Tips](#7-总结与-tips)
 
 ---
-
 ## 1. 背景与目标
 为了提升性能，官方推荐使用 **n8n Runners** 分布式执行任务。在 Mac 上部署时，我们需要确保：
 * Read/Write File 节点可以无障碍读写。
