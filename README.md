@@ -3,11 +3,12 @@
 > 专注于自托管自动化工具 n8n 的实战沉淀。解决 Mac/Docker 环境下的权限地狱，分享高级工作流。
 
 ---
-
-## 📂 核心指南 (Guides)
+ ## 📂 核心指南 (Guides)
 
 * **[🔥 必读] [n8n + Runner + Mac 部署踩坑完整指南](./docs/n8n-mac-guide.md)**
   * *解决 Read/Write 权限报错、临时目录 Socket 及代理拦截问题。*
+* **[💡 实用] [n8n Webhook 调试小 Tips 总结](./docs/n8n-tips.md)**
+  * *先让数据“自动流到底”，再切换成“手动控制返回”——避坑 80% 的 webhook 响应问题。*
 
 ---
 
